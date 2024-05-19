@@ -48,6 +48,20 @@ x=input("enter the first number: ")
 y=input("enter the second number: ")
 print(int(x)**int(y))
 
+#User will input (3ages).Find the oldest one
+age1=(input("enter the age1= "))
+age2=(input("enter the age1= "))
+age3=(input("enter the age1= "))
+if age1>age2 and age1>age3:
+  print("age1 is oldest")
+elif age2>age1 and age2>age3:
+  print("age2 is oldest")
+else:
+  print("age3 is oldest")
+
+  
+
+
 
 
 
