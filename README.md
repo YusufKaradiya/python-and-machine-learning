@@ -26,5 +26,31 @@ print("modules of",2,"%",3,"=",a%b)
 print("multiplication of",2,"*",3,"=",a*b)
 print("exponential of",2,"**",3,"=",a**b)
 
+#Taking user input to use calculator program
+x=3
+y=6
+x=input("enter the first number: ")
+y=input("enter the second number: ")
+print(int(x)-int(y))
+x=input("enter the first number: ")
+y=input("enter the second number: ")
+print(int(x)+int(y))
+x=input("enter the first number: ")
+y=input("enter the second number: ")
+print(int(x)*int(y))
+x=input("enter the first number: ")
+y=input("enter the second number: ")
+print(int(x)/int(y))
+x=input("enter the first number: ")
+y=input("enter the second number: ")
+print(int(x)%int(y))
+x=input("enter the first number: ")
+y=input("enter the second number: ")
+print(int(x)**int(y))
+
+
+
+
+
 
 
